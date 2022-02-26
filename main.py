@@ -5,7 +5,7 @@ from flask import Flask, request
 
 TOKEN = '5036409685:AAGk9sy7hxamk0y8woYl4GQYHM4ulk5WZpI'
 APP_URL = f'https://vitaljaheroku.herokuapp.com/{TOKEN}'
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.TeleBot('5036409685:AAGk9sy7hxamk0y8woYl4GQYHM4ulk5WZpI')
 server = Flask(__name__)
 
 
